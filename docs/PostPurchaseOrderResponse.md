@@ -1,0 +1,31 @@
+# TepsalesserviceApi.PostPurchaseOrderResponse
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**createdAt** | **Date** |  | [optional] 
+**updatedAt** | **Date** |  | [optional] 
+**userCreated** | **String** |  | [optional] 
+**userUpdated** | **String** |  | [optional] 
+**id** | **String** |  | [optional] 
+**freightValue** | **Number** |  | [optional] 
+**unloadingValue** | **Number** |  | [optional] 
+**freightType** | [**FreightType**](FreightType.md) |  | [optional] 
+**valueWithoutFreight** | **Number** |  | [optional] 
+**totalValue** | **Number** |  | [optional] 
+**discount** | **Number** |  | [optional] 
+**distance** | **Number** |  | [optional] 
+**earthDistance** | **Number** |  | [optional] 
+**totalWeightkilograms** | **Number** |  | [optional] 
+**dueDate** | **Date** |  | [optional] 
+**mobileCreatedAt** | **Date** |  | [optional] 
+**isFreightFractional** | **Boolean** |  | [optional] 
+**integrationCode** | **String** |  | [optional] 
+**paymentCondition** | [**PaymentCondition**](PaymentCondition.md) |  | [optional] 
+**client** | [**Client**](Client.md) |  | [optional] 
+**deliveryAddress** | [**Address**](Address.md) |  | [optional] 
+**invoiceAddress** | [**Address**](Address.md) |  | [optional] 
+**items** | [**[PurchaseOrderItem]**](PurchaseOrderItem.md) |  | [optional] 
+**history** | [**[PurchaseOrderHistory]**](PurchaseOrderHistory.md) |  | [optional] 
+**mobileCreatedUser** | [**User**](User.md) |  | [optional] 
+**status** | [**PurchaseOrderStatus**](PurchaseOrderStatus.md) |  | [optional] 

@@ -1,0 +1,33 @@
+# TepsalesserviceApi.PutPurchaseOrderRequest
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**createdAt** | **Date** |  | [optional] 
+**updatedAt** | **Date** |  | [optional] 
+**userCreated** | **String** |  | [optional] 
+**userUpdated** | **String** |  | [optional] 
+**id** | **String** |  | [optional] 
+**freightValue** | **Number** |  | [optional] 
+**unloadingValue** | **Number** |  | [optional] 
+**freightType** | [**FreightType**](FreightType.md) |  | [optional] 
+**valueWithoutFreight** | **Number** |  | [optional] 
+**totalValue** | **Number** |  | [optional] 
+**discount** | **Number** |  | [optional] 
+**distance** | **Number** |  | [optional] 
+**earthDistance** | **Number** |  | [optional] 
+**totalWeightkilograms** | **Number** |  | [optional] 
+**dueDate** | **Date** |  | [optional] 
+**mobileCreatedAt** | **Date** |  | [optional] 
+**isFreightFractional** | **Boolean** |  | [optional] 
+**integrationCode** | **String** |  | [optional] 
+**paymentConditionId** | **String** |  | [optional] 
+**clientId** | **String** |  | [optional] 
+**deliveryAddressId** | **String** |  | [optional] 
+**invoiceAddressId** | **String** |  | [optional] 
+**items** | [**[PurchaseOrderItemModelBase]**](PurchaseOrderItemModelBase.md) |  | [optional] 
+**freightCompositions** | [**[FreightCompositionModel]**](FreightCompositionModel.md) |  | [optional] 
+**mobileCreatedUserId** | **String** |  | [optional] 
+**paymentPriceTableId** | **String** |  | [optional] 
+**distribuitionCenterId** | **String** |  | [optional] 
+**distribuitionCenterClientAddressId** | **String** |  | [optional] 
